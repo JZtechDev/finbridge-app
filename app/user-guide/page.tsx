@@ -12,7 +12,7 @@ async function getStrapiData() {
 }
 
 const page = async () => {
-  const { data } = await getStrapiData();
+  const { data }: any = await getStrapiData();
   const titlesArray: Array<string> = [];
   const tabContent: Array<any> = [];
 
