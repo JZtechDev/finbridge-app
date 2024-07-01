@@ -4,7 +4,7 @@ import GuideHero from "@/components/sections/guide/GuideHero";
 async function getStrapiData() {
   try {
     const resposne = await fetch("http://localhost:1337/api/tabcontents");
-    const data = await resposne.json();
+    const data: any = await resposne.json();
     return data;
   } catch (error: any) {
     console.log(error.messsage);
