@@ -1,20 +1,21 @@
 import { Button } from "@/components/ui/button";
 import Pill from "@/components/ui/pill";
-import { Check } from "lucide-react";
 import Image from "next/image";
 
 const Features = () => {
   return (
-    <section className="py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-9rem] before:-right-[100px] before:blur-[150px] before:-z-10">
-      <div className="max-w-[40%] m-auto">
-        <h2 className="text-h2 text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
-          Features & Functionality
-        </h2>
-        <p className="text-body opacity-50 font-medium max-w-[45%] m-auto text-center">
-          Your Bourse is a platform-as-a-service. All current and future
-          platform features are available to all Your Bourse clients for no
-          extra costs.
-        </p>
+    <section className="pt-20 pb-[21.875rem] relative isolate before:absolute before:w-[250rem] before:h-[250rem] before:-translate-x-1/2 before:left-1/2 before:bottom-28 before:bg-[#03070D] before:-z-10 before:rounded-full after:absolute after:w-[25rem] after:h-[25rem] after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:bg-[#28E7C5] after:-z-20 after:blur-3xl after:opacity-[0.25]">
+      <div className="relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-9rem] before:-right-[100px] before:blur-[150px] before:-z-10">
+        <div className="max-w-[40%] m-auto">
+          <h2 className="text-h2 text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
+            Features & Functionality
+          </h2>
+          <p className="text-body opacity-50 font-medium max-w-[45%] m-auto text-center">
+            Your Bourse is a platform-as-a-service. All current and future
+            platform features are available to all Your Bourse clients for no
+            extra costs.
+          </p>
+        </div>
       </div>
       <div className="container py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10">
         <div className="grid grid-cols-2 items-center">

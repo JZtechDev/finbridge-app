@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#040A1466] border-t border-[#B7D2FF1A]">
+    <footer className="bg-[#040A1466] border-t border-[#B7D2FF1A] relative isolate before:absolute before:w-[330px] before:h-[330px] before:bg-[#B7D2FF33] before:-left-[50px] before:-top-1/2 before:rounded-full before:blur-3xl before:-z-10 before:opacity-50 after:absolute after:w-[330px] after:h-[330px] after:bg-[#B7D2FF33] after:-right-[50px] after:-top-1/2 after:rounded-full after:blur-3xl after:-z-10 after:opacity-50">
       <div className="container">
         <div className="grid grid-cols-4 py-12">
           <div>

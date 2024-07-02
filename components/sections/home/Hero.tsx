@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative isolate overflow-hidden">
-      <div className="container pt-48 pb-[320px]">
+    <section className="relative isolate overflow-hidden ">
+      <div className="container pt-36 pb-[320px]">
         <div className="flex flex-col items-center justify-center gap-5 text-center max-w-[50%] m-auto">
           <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
             Order Execution and Reporting for{" "}

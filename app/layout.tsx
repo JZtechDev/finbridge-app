@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
-// import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/sections/Footer";
+import Navbar from "@/components/sections/Navbar";
 
-// const inter = Inter({ subsets: ["latin"] });
 const avant = localFont({ src: "fonts/ITCAvantGardePro-Md.ttf" });
-// const avant = localFont({ src: "" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,8 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={avant.className}>
-        <main>{children}</main>
+      <body className={`${avant.className} overflow-x-hidden`}>
+        <Navbar />
+        {children}
         <Footer />
       </body>
     </html>

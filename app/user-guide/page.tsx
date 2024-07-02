@@ -1,5 +1,6 @@
 import Guide from "@/components/sections/guide/Guide";
 import GuideHero from "@/components/sections/guide/GuideHero";
+import Seamless from "@/components/sections/home/Seamless";
 
 async function getStrapiData() {
   try {
@@ -27,6 +28,7 @@ const page = async () => {
     <div className="user_guide overflow-hidden pb-10">
       <GuideHero />
       <Guide titles={titlesArray} data={tabContent} />
+      <Seamless />
     </div>
   );
 };
