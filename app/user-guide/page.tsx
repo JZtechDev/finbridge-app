@@ -3,7 +3,9 @@ import GuideHero from "@/components/sections/guide/GuideHero";
 
 async function getStrapiData() {
   try {
-    const resposne = await fetch("http://localhost:1337/api/tabcontents");
+    const resposne = await fetch(
+      "https://thoughtful-wonder-a30fab97ed.strapiapp.com/api/tabcontents"
+    );
     const data: any = await resposne.json();
     return data;
   } catch (error: any) {
