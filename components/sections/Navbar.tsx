@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="bg-[#050D1B33] flex gap-[15px] justify-between items-center p-[5px] border border-[#B7D2FF06] rounded-full h-[3.375rem]">
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-              href="/"
+              href="/user-guide"
             >
               Features
               <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
@@ -21,7 +21,7 @@ const Navbar = () => {
             </Link>
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-              href="/"
+              href="/user-guide"
             >
               MT4/MT5
               <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
@@ -30,7 +30,7 @@ const Navbar = () => {
             </Link>
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-              href="/"
+              href="/user-guide"
             >
               About Us
               <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
