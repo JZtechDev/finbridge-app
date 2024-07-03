@@ -5,7 +5,15 @@ import Link from "next/link";
 
 let heading: string = "";
 
-const Guide = ({ titles, data }: { titles: any; data: any }) => {
+const Guide = ({
+  titles,
+  data,
+  imgPath,
+}: {
+  titles: any;
+  data: any;
+  imgPath: string;
+}) => {
   return (
     <div className="container">
       <Tabs
@@ -96,7 +104,10 @@ const Guide = ({ titles, data }: { titles: any; data: any }) => {
                   image: ({ image }) => (
                     <img
                       className="py-4"
-                      src={image.url}
+                      src={image.url.replace(
+                        "http://localhost:1337/uploads/",
+                        `https://thoughtful-wonder-a30fab97ed.media.strapiapp.com/`
+                      )}
                       alt={image.alternativeText || ""}
                     />
                   ),
