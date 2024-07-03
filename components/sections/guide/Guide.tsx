@@ -6,6 +6,7 @@ import Link from "next/link";
 let heading: string = "";
 
 const Guide = ({ titles, data }: { titles: any; data: any }) => {
+  console.log(titles);
   return (
     <div className="container">
       <Tabs
@@ -16,7 +17,7 @@ const Guide = ({ titles, data }: { titles: any; data: any }) => {
         <TabsList className="h-auto flex-col items-start justify-start bg-[#03070D66] border border-[#B7D2FF1A] p-[10px] gap-2">
           {titles.map((title: any, index: number) => (
             <TabsTrigger
-              className=" h-10 text-white bg-[#FFFFFF0A] border border-[#FFFFFF0A] w-full justify-start rounded-[10px] pl-5 tab_btn"
+              className={`h-10 text-white bg-[#FFFFFF0A] border border-[#FFFFFF0A] w-full justify-start rounded-[10px] pl-5 tab_btn ${title}`}
               key={index}
               value={title}
             >

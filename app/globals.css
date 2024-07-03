@@ -97,3 +97,226 @@
 .user_guide .tab_content ol > ul{
   opacity: 1;
 }
+.tab_btn.Bourse {
+  order: 1;
+}
+.tab_btn.Dashboard {
+  order: 2;
+}
+.tab_btn.User.Management {
+  order: 3;
+}
+.tab_btn.Role.Management {
+  order: 4;
+}
+.tab_btn.Symbols {
+  order: 5;
+}
+.tab_btn.Symbol.Profiles {
+  order: 6;
+}
+.tab_btn.Global.Filters {
+  order: 7;
+}
+.tab_btn.Liquidity.Providers {
+  order: 8;
+}
+.tab_btn.Liquidity.Provider {
+  order: 9;
+}
+.tab_btn.Additional.FIX.Session.Parameters
+{
+  order: 10;
+}
+.tab_btn.Matching.Engines{
+  order: 11;
+}
+.tab_btn.Aggregation.Rules{
+  order: 12;
+}
+.tab_btn.MT5.Gateway{
+  order: 13;
+}
+.tab_btn.MT5.Gateway.Installation.and.Configuration{
+  order: 14;
+}
+.tab_btn.MT5.Gateway.Pricing.Configuration{
+  order: 15;
+}
+.tab_btn.MT5.Gateway.Order.Routing{
+  order: 16;
+}
+.tab_btn.MT5.Book.Configuration{
+  order: 17;
+}
+.tab_btn.MT5.DataWarehouse.Plugin{
+  order: 18;
+}
+.tab_btn.MT4.Bridge{
+  order: 19;
+}
+.tab_btn.MT4.Bridge.Installation.and.Configuration{
+  order: 20;
+}
+.tab_btn.MT4.Bridge.Pricing.Configuration{
+  order: 21;
+}
+.tab_btn.MT4.Bridge.Mapped.symbols.configuration{
+  order: 22;
+}
+.tab_btn.MT4.Bridge.Order.Routing{
+  order: 23;
+}
+.tab_btn.MT4.Bridge.Book.Configuration{
+  order: 24;
+}
+.tab_btn.MT4.Coverage.Accounts{
+  order: 25;
+}
+.tab_btn.Exposure.Limit.the.MT4{
+  order: 26;
+}
+.tab_btn.Dynamic.Profiles{
+  order: 27;
+}
+.tab_btn.Current.State{
+  order: 28;
+}
+.tab_btn.Custom.Profiles{
+  order: 29;
+}
+.tab_btn.Upcoming.Past{
+  order: 30;
+}
+.tab_btn.FIX.server{
+  order: 31;
+}
+.tab_btn.FIX.client.setup{
+  order: 32;
+}
+.tab_btn.External.Order.Listener.plugin{
+  order: 33;
+}
+.tab_btn.Corporate.Actions{
+  order: 34;
+}
+.tab_btn.Corporate.actions.configuration{
+  order: 35;
+}
+.tab_btn.Dividend.Adjustments{
+  order: 36;
+}
+.tab_btn.Registering.Server{
+  order: 37;
+}
+.tab_btn.Calculate.Amount.Dividends{
+  order: 38;
+}
+.tab_btn.single.Dividend.Adjustment{
+  order: 39;
+}
+.tab_btn.Adjusting.Dividends{
+  order: 40;
+}
+.tab_btn.Check.Dividend.Adjustments{
+  order: 41;
+}
+.tab_btn.The.Swaps.Import{
+  order: 42;
+}
+.tab_btn.configure.swaps.importing{
+  order: 43;
+}
+.tab_btn.use.swaps.functionality{
+  order: 44;
+}
+.tab_btn.Group.Swaps.Functionality{
+  order: 45;
+}
+.tab_btn.Trade.Execution.Report{
+  order: 46;
+}
+.tab_btn.Trade.Blotter{
+  order: 47;
+}
+.tab_btn.Trade.Blotter.Filters{
+  order: 48;
+}
+.tab_btn.Trade.Blotter.Parameters{
+  order: 49;
+}
+.tab_btn.Trade.Blotter.Running.Options{
+  order: 50;
+}
+.tab_btn.Trade.Blotter.Data.Export.Functions{
+  order: 51;
+}
+.tab_btn.Subscription.Scheduled.Reports{
+  order: 52;
+}
+.tab_btn.Floating.Leverage.Functionality{
+  order: 53;
+}
+.tab_btn.MT5.Floating.Leverage.Plugin.configuration{
+  order: 54;
+}
+.tab_btn.MT4.Floating.Leverage.Functionality{
+  order: 55;
+}
+.tab_btn.MT5.Floating.Leverage.Rules.Configuration{
+  order: 56;
+}
+.tab_btn.MT5.Coverage.Plugin{
+  order: 57;
+}
+.tab_btn.Setting.Coverage.Plugin{
+  order: 58;
+}
+.tab_btn.Configuring.Coverage.Plugin.Rules{
+  order: 59;
+}
+.tab_btn.Coverage.Hedging.Scenarios{
+  order: 60;
+}
+.tab_btn.MT4.Prop.Trading.Plugin{
+  order: 61;
+}
+.tab_btn.How.configure.Prop.Trading.plugin{
+  order: 62;
+}
+.tab_btn.MT4.Prop.Trading.Plugin.Use.Cases{
+  order: 63;
+}
+.tab_btn.Price.Markup.per.Volume.Band{
+  order: 64;
+}
+.tab_btn.Negative.Spread.Protection{
+  order: 65;
+}
+.tab_btn.The.Scheduler{
+  order: 66;
+}
+.tab_btn.How.use.the.Scheduler{
+  order: 67;
+}
+.tab_btn.Log.Monitoring{
+  order: 68;
+}
+.tab_btn.FIX.messages{
+  order: 69;
+}
+.tab_btn.Client.Alerts{
+  order: 70;
+}
+
+
+.privacy_content ul{
+  padding-left: 20px;
+  list-style: disc;
+}
+.privacy_content ul li{
+  line-height: 1.8;
+}
+.privacy_content p{
+  line-height: 1.8;
+}

@@ -5,14 +5,14 @@ import { ChevronDown } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="relative z-50">
       <div className="container mt-10">
         <nav className="flex justify-between items-center">
           <Image src="/logo.svg" alt="Logo" width="110" height="30" />
           <div className="bg-[#050D1B33] flex gap-[15px] justify-between items-center p-[5px] border border-[#B7D2FF06] rounded-full h-[3.375rem]">
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-              href="/user-guide"
+              href="/userguide"
             >
               Features
               <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
@@ -21,7 +21,7 @@ const Navbar = () => {
             </Link>
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-              href="/user-guide"
+              href="/userguide"
             >
               MT4/MT5
               <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
@@ -30,7 +30,7 @@ const Navbar = () => {
             </Link>
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-              href="/user-guide"
+              href="/userguide"
             >
               About Us
               <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">

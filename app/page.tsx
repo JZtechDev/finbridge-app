@@ -6,12 +6,12 @@ import Services from "@/components/sections/home/Services";
 
 export default function Home() {
   return (
-    <main className="">
+    <>
       <Hero />
       <Experience />
       <Features />
       <Services />
       <Seamless />
-    </main>
+    </>
   );
 }
