@@ -6,11 +6,10 @@ import Link from "next/link";
 let heading: string = "";
 
 const Guide = ({ titles, data }: { titles: any; data: any }) => {
-  console.log(titles);
   return (
     <div className="container">
       <Tabs
-        defaultValue={`Your Bourse Platform User Guide`}
+        defaultValue={`Finbridge Platform User Guide`}
         orientation="horizontal"
         className="flex gap-[10px] w-full justify-between"
       >
