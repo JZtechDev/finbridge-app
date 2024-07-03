@@ -10,7 +10,7 @@ const Guide = ({ titles, data }: { titles: any; data: any }) => {
   return (
     <div className="container">
       <Tabs
-        defaultValue={titles[0]}
+        defaultValue={`Your Bourse Platform User Guide`}
         orientation="horizontal"
         className="flex gap-[10px] w-full justify-between"
       >
