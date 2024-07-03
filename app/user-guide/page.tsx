@@ -27,7 +27,7 @@ const page = async () => {
   return (
     <div className="user_guide overflow-hidden pb-10">
       <GuideHero />
-      <Guide titles={titlesArray} data={tabContent} imgPath={basePath} />
+      <Guide titles={titlesArray} data={tabContent} />
       <Seamless />
     </div>
   );

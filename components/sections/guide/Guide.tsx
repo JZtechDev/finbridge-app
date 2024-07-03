@@ -5,15 +5,7 @@ import Link from "next/link";
 
 let heading: string = "";
 
-const Guide = ({
-  titles,
-  data,
-  imgPath,
-}: {
-  titles: any;
-  data: any;
-  imgPath: string;
-}) => {
+const Guide = ({ titles, data }: { titles: any; data: any }) => {
   return (
     <div className="container">
       <Tabs
