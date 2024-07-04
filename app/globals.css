@@ -97,8 +97,16 @@
 .user_guide .tab_content ol > ul{
   opacity: 1;
 }
+.user_guide .tab_btn:before{
+  content: "-";
+  margin-right: 4px;
+}
 .tab_btn.Finbridge {
   order: 1;
+}
+.tab_btn.Finbridge::before {
+  content: "";
+  margin: 0px;
 }
 .tab_btn.Dashboard {
   order: 2;
@@ -123,115 +131,145 @@
 }
 .tab_btn.Liquidity.Provider {
   order: 9;
+  padding-left: 24px;
 }
 .tab_btn.Additional.FIX.Session.Parameters
 {
   order: 10;
+  padding-left: 24px;
 }
 .tab_btn.Matching.Engines{
   order: 11;
 }
 .tab_btn.Aggregation.Rules{
   order: 12;
+  padding-left: 24px;
 }
 .tab_btn.MT5.Gateway{
   order: 13;
 }
 .tab_btn.MT5.Gateway.Installation.and.Configuration{
   order: 14;
+  padding-left: 24px;
 }
 .tab_btn.MT5.Gateway.Pricing.Configuration{
   order: 15;
+  padding-left: 24px;
 }
 .tab_btn.MT5.Gateway.Order.Routing{
   order: 16;
+  padding-left: 24px;
 }
 .tab_btn.MT5.Book.Configuration{
   order: 17;
+  padding-left: 24px;
 }
 .tab_btn.MT5.DataWarehouse.Plugin{
   order: 18;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Bridge{
   order: 19;
 }
 .tab_btn.MT4.Bridge.Installation.and.Configuration{
   order: 20;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Bridge.Pricing.Configuration{
   order: 21;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Bridge.Mapped.symbols.configuration{
   order: 22;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Bridge.Order.Routing{
   order: 23;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Bridge.Book.Configuration{
   order: 24;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Coverage.Accounts{
   order: 25;
+  padding-left: 24px;
 }
 .tab_btn.Exposure.Limit.the.MT4{
   order: 26;
+  padding-left: 24px;
 }
 .tab_btn.Dynamic.Profiles{
   order: 27;
 }
 .tab_btn.Current.State{
   order: 28;
+  padding-left: 24px;
 }
 .tab_btn.Custom.Profiles{
   order: 29;
+  padding-left: 24px;
 }
 .tab_btn.Upcoming.Past{
   order: 30;
+  padding-left: 24px;
 }
 .tab_btn.FIX.server{
   order: 31;
 }
 .tab_btn.FIX.client.setup{
   order: 32;
+  padding-left: 24px;
 }
 .tab_btn.External.Order.Listener.plugin{
   order: 33;
+  padding-left: 24px;
 }
 .tab_btn.Corporate.Actions{
   order: 34;
 }
 .tab_btn.Corporate.actions.configuration{
   order: 35;
+  padding-left: 24px;
 }
 .tab_btn.Dividend.Adjustments{
   order: 36;
+  padding-left: 24px;
 }
 .tab_btn.Registering.Server{
   order: 37;
+  padding-left: 36px;
 }
 .tab_btn.Calculate.Amount.Dividends{
   order: 38;
+  padding-left: 36px;
 }
 .tab_btn.single.Dividend.Adjustment{
   order: 39;
+  padding-left: 36px;
 }
 .tab_btn.Adjusting.Dividends{
   order: 40;
+  padding-left: 36px;
 }
 .tab_btn.Check.Dividend.Adjustments{
   order: 41;
+  padding-left: 36px;
 }
 .tab_btn.The.Swaps.Import{
   order: 42;
 }
 .tab_btn.configure.swaps.importing{
   order: 43;
+  padding-left: 24px;
 }
 .tab_btn.use.swaps.functionality{
   order: 44;
+  padding-left: 24px;
 }
 .tab_btn.Group.Swaps.Functionality{
   order: 45;
+  padding-left: 24px;
 }
 .tab_btn.Trade.Execution.Report{
   order: 46;
@@ -241,51 +279,64 @@
 }
 .tab_btn.Trade.Blotter.Filters{
   order: 48;
+  padding-left: 24px;
 }
 .tab_btn.Trade.Blotter.Parameters{
   order: 49;
+  padding-left: 24px;
 }
 .tab_btn.Trade.Blotter.Running.Options{
   order: 50;
+  padding-left: 24px;
 }
 .tab_btn.Trade.Blotter.Data.Export.Functions{
   order: 51;
+  padding-left: 24px;
 }
 .tab_btn.Subscription.Scheduled.Reports{
   order: 52;
+  padding-left: 24px;
 }
 .tab_btn.Floating.Leverage.Functionality{
   order: 53;
 }
 .tab_btn.MT5.Floating.Leverage.Plugin.configuration{
   order: 54;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Floating.Leverage.Functionality{
   order: 55;
+  padding-left: 24px;
 }
 .tab_btn.MT5.Floating.Leverage.Rules.Configuration{
   order: 56;
+  padding-left: 24px;
 }
 .tab_btn.MT5.Coverage.Plugin{
   order: 57;
 }
 .tab_btn.Setting.Coverage.Plugin{
   order: 58;
+  padding-left: 24px;
 }
 .tab_btn.Configuring.Coverage.Plugin.Rules{
   order: 59;
+  padding-left: 24px;
 }
 .tab_btn.Coverage.Hedging.Scenarios{
   order: 60;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Prop.Trading.Plugin{
   order: 61;
 }
 .tab_btn.How.configure.Prop.Trading.plugin{
   order: 62;
+  padding-left: 24px;
 }
 .tab_btn.MT4.Prop.Trading.Plugin.Use.Cases{
   order: 63;
+  padding-left: 24px;
 }
 .tab_btn.Price.Markup.per.Volume.Band{
   order: 64;
@@ -298,6 +349,7 @@
 }
 .tab_btn.How.use.the.Scheduler{
   order: 67;
+  padding-left: 24px;
 }
 .tab_btn.Log.Monitoring{
   order: 68;
