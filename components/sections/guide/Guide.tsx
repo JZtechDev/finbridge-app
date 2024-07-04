@@ -11,7 +11,7 @@ const Guide = ({ titles, data }: { titles: any; data: any }) => {
       <Tabs
         defaultValue={`Finbridge Platform User Guide`}
         orientation="horizontal"
-        className="flex gap-[10px] w-full justify-between"
+        className="flex gap-[10px] w-full justify-between items-start"
       >
         <TabsList className="h-auto flex-col items-start justify-start bg-[#03070D66] border border-[#B7D2FF1A] p-[10px] gap-2">
           {titles.map((title: any, index: number) => (
