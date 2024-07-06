@@ -1,10 +1,12 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <section className="relative isolate overflow-hidden ">
-      <div className="container pt-36 pb-[320px]">
+      <div className="container pt-48 pb-[320px]">
         <div className="flex flex-col items-center justify-center gap-5 text-center max-w-[50%] m-auto">
           <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
             Order Execution and Reporting for{" "}
@@ -18,10 +20,42 @@ const Hero = () => {
           </p>
           <Button>See How it Works</Button>
         </div>
-        <div
-          className="flex justify-center items-center m-auto absolute w-[33.75rem] h-[33.75rem] -z-20 bottom-[-12.5rem] left-[49.5%] -translate-x-1/2 before:absolute before:w-[19.125rem] before:h-[19.125rem] before:bg-[#B7D2FF1A] before:top-1/4 before:left-[21%] before:rounded-full before:blur-3xl before:-z-10"
-          style={{ background: "url(/dotted-circle.svg)" }}
-        >
+        <div className="flex justify-center items-center m-auto absolute w-[33.75rem] h-[33.75rem] -z-20 bottom-[-12.5rem] left-[49.5%] -translate-x-1/2 before:absolute before:w-[19.125rem] before:h-[19.125rem] before:bg-[#B7D2FF1A] before:top-1/4 before:left-[21%] before:rounded-full before:blur-3xl before:-z-10">
+          <motion.div
+            className="absolute isolate w-[33.75rem] h-[33.75rem] -z-40"
+            initial={{ rotate: "0deg" }}
+            animate={{ rotate: "360deg" }}
+            transition={{
+              repeat: Infinity,
+              duration: 100,
+              yoyo: "infinity",
+              ease: "linear",
+            }}
+          >
+            <img
+              className="absolute w-full h-full"
+              src="/big-circle.png"
+              alt=""
+            />
+          </motion.div>
+          <div className="absolute w-full h-full bg-gradient-to-t from-[#03070D] from-[30%] to-transparent -z-30" />
+          <motion.div
+            className="absolute isolate w-[27.5rem] h-[27.5rem] -z-50"
+            initial={{ rotate: "0deg" }}
+            animate={{ rotate: "-360deg" }}
+            transition={{
+              repeat: Infinity,
+              duration: 100,
+              yoyo: "infinity",
+              ease: "linear",
+            }}
+          >
+            <img
+              className="absolute w-full h-full"
+              src="/small-circle.png"
+              alt=""
+            />
+          </motion.div>
           <Image src="/glow-frame.png" alt="" width="84" height="84" />
         </div>
         <div className="w-full h-[80%] bg-[#07112133] absolute left-0 bottom-0 -z-10 rounded-full blur-3xl before_circle-elements before:w-[75rem] before:h-[75rem] pointer-events-none " />

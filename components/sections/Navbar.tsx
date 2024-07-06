@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <header className="relative z-50">
+    <header className="absolute w-full z-50">
       <div className="container mt-10">
         <nav className="flex justify-between items-center">
           <Image src="/logo.svg" alt="Logo" width="110" height="30" />

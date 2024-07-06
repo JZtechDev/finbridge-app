@@ -1,17 +1,47 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Seamless = () => {
   return (
     <section>
       <div className="container flex flex-col justify-center items-center pt-[21.875rem] relative isolate">
-        <div
-          className="bg-no-repeat absolute isolate w-[28rem] h-[28rem] top-[85px] left-[50%] -translate-x-1/2 grid place-items-center before:absolute before:bg-[#B7D2FF1A] before:w-[15.625rem] before:h-[15.625rem] before:rounded-full before:blur-2xl -z-10"
-          style={{
-            backgroundImage: "url(/hald-dotted-circle.png)",
-            backgroundPosition: "top center",
-          }}
-        >
+        <div className="absolute isolate w-[28rem] h-[28rem] top-[85px] left-[50%] -translate-x-1/2 grid place-items-center before:absolute before:bg-[#B7D2FF1A] before:w-[15.625rem] before:h-[15.625rem] before:rounded-full before:blur-2xl -z-10">
+          <motion.div
+            className="absolute isolate w-[27.5rem] h-[27.5rem]"
+            initial={{ rotate: "0deg" }}
+            animate={{ rotate: "360deg" }}
+            transition={{
+              repeat: Infinity,
+              duration: 100,
+              yoyo: "infinity",
+              ease: "linear",
+            }}
+          >
+            <img
+              className="absolute w-full h-full"
+              src="/big-circle.png"
+              alt=""
+            />
+          </motion.div>
+          <motion.div
+            className="absolute isolate w-[23.125rem] h-[23.125rem]"
+            initial={{ rotate: "0deg" }}
+            animate={{ rotate: "-360deg" }}
+            transition={{
+              repeat: Infinity,
+              duration: 100,
+              yoyo: "infinity",
+              ease: "linear",
+            }}
+          >
+            <img
+              className="absolute w-full h-full"
+              src="/small-circle.png"
+              alt=""
+            />
+          </motion.div>
           <Image
             className="relative z-10"
             src="/seamless-glow-frame.png"
@@ -19,7 +49,7 @@ const Seamless = () => {
             width="64"
             height="64"
           />
-          <div className="absolute w-full h-[50%] bg-gradient-to-t from-[#03070D] from-[50%] to-transparent z-[2]" />
+          <div className="absolute w-full h-full bg-gradient-to-t from-[#03070D] from-[50%] to-transparent z-[2]" />
         </div>
         <h4 className="text-h4 text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[40%] m-auto">
           Unlock Seamless Trading with Finbridge

@@ -4,7 +4,9 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <section className="pt-20 pb-[21.875rem] relative isolate before:absolute before:w-[250rem] before:h-[250rem] before:-translate-x-1/2 before:left-1/2 before:bottom-28 before:bg-[#03070D] before:-z-10 before:rounded-full after:absolute after:w-[25rem] after:h-[25rem] after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:bg-[#28E7C5] after:-z-20 after:blur-3xl after:opacity-[0.25]">
+    <section className="pt-20 pb-[21.875rem] relative isolate ">
+      <div className="before:absolute before:w-[250rem] before:h-[250rem] before:-translate-x-1/2 before:left-1/2 before:bottom-28 before:bg-[#03070D] before:-z-10 before:rounded-full after:absolute after:w-[25rem] after:h-[25rem] after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:bg-[#28E7C5] after:-z-20 after:blur-3xl after:opacity-[0.25]" />
+
       <div className="relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-9rem] before:-right-[100px] before:blur-[150px] before:-z-10">
         <div className="max-w-[40%] m-auto">
           <h2 className="text-h2 text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
@@ -17,9 +19,9 @@ const Features = () => {
           </p>
         </div>
       </div>
-      <div className="container py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10">
-        <div className="grid grid-cols-2 items-center">
-          <div>
+      <div className="relative isolate">
+        <div className="container grid grid-cols-2 items-start py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10">
+          <div className=" self-center mt-8">
             <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[50%] mb-4">
               Matching Engine
             </h3>
@@ -57,20 +59,18 @@ const Features = () => {
               Schedule Demo
             </Button>
           </div>
-          <div>
-            <Image
-              className="ml-auto"
-              src="/matching-engine.png"
-              alt=""
-              width="500"
-              height="500"
-            />
-          </div>
+          {/* <div className="">
+          <Image
+            className="ml-auto"
+            src="/matching-engine.png"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div> */}
         </div>
-      </div>
-      <div className="container py-20 relative isolate">
-        <div className="grid grid-cols-2 items-center">
-          <div>
+        <div className="container grid grid-cols-2 items-start py-20 relative isolate">
+          <div className=" self-center mt-8">
             <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[50%] mb-4">
               Liquidity Aggregation
             </h3>
@@ -105,20 +105,18 @@ const Features = () => {
               Schedule Demo
             </Button>
           </div>
-          <div>
-            <Image
-              className="ml-auto"
-              src="/liquidity-aggr.svg"
-              alt=""
-              width="500"
-              height="500"
-            />
-          </div>
+          {/* <div className="">
+          <Image
+            className="ml-auto"
+            src="/liquidity-aggr.svg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div> */}
         </div>
-      </div>
-      <div className="container py-20 relative isolate before:w-[20rem] before:absolute before:h-[20rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-10rem] before:-right-[230px] before:blur-[150px] before:-z-10">
-        <div className="grid grid-cols-2 items-center">
-          <div>
+        <div className="container grid grid-cols-2 items-start py-20 relative isolate before:w-[20rem] before:absolute before:h-[20rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-10rem] before:-right-[230px] before:blur-[150px] before:-z-10">
+          <div className=" self-center mt-8">
             <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[55%] mb-4">
               MT4 Bridge / MT5 Gateway
             </h3>
@@ -148,20 +146,18 @@ const Features = () => {
               Schedule Demo
             </Button>
           </div>
-          <div>
-            <Image
-              className="ml-auto"
-              src="/bridge-gateway.png"
-              alt=""
-              width="500"
-              height="500"
-            />
-          </div>
+          {/* <div className="">
+          <Image
+            className="ml-auto"
+            src="/bridge-gateway.png"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div> */}
         </div>
-      </div>
-      <div className="container py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10">
-        <div className="grid grid-cols-2 items-center">
-          <div>
+        <div className="container grid grid-cols-2 items-start py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10">
+          <div className=" self-center mt-8">
             <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[80%] mb-4">
               Risk Management & Reporting
             </h3>
@@ -195,20 +191,18 @@ const Features = () => {
               Schedule Demo
             </Button>
           </div>
-          <div>
-            <Image
-              className="ml-auto"
-              src="/risk-management.png"
-              alt=""
-              width="500"
-              height="500"
-            />
-          </div>
+          {/* <div className="">
+          <Image
+            className="ml-auto"
+            src="/risk-management.png"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div> */}
         </div>
-      </div>
-      <div className="container py-20 relative isolate">
-        <div className="grid grid-cols-2 items-center">
-          <div>
+        <div className="container grid grid-cols-2 items-start py-20 relative isolate">
+          <div className=" self-center mt-8">
             <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[70%] mb-4">
               Fully functional FIX API Server
             </h3>
@@ -240,15 +234,18 @@ const Features = () => {
               Schedule Demo
             </Button>
           </div>
-          <div>
-            <Image
-              className="ml-auto"
-              src="/api-server.svg"
-              alt=""
-              width="500"
-              height="500"
-            />
-          </div>
+          {/* <div className="">
+          <Image
+            className="ml-auto"
+            src="/api-server.svg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div> */}
+        </div>
+        <div className="max-w-[31.25rem] absolute top-20 right-64">
+          <img src="/img-frame.png" alt="" />
         </div>
       </div>
     </section>
