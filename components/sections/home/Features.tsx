@@ -2,10 +2,11 @@
 import { Button } from "@/components/ui/button";
 import Pill from "@/components/ui/pill";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 
 const Features = () => {
+  const [windowWidth, setWindowWidth] = useState(0);
   const targetedRef: any = useRef(null);
   const sectionOne: any = useRef(null);
   const sectionTwo: any = useRef(null);
@@ -31,21 +32,17 @@ const Features = () => {
 
   const { scrollYProgress } = useScroll({ target: targetedRef });
 
-  let maxheightScreen;
+  useEffect(() => {
+    if (window.innerWidth >= 1500) {
+      setWindowWidth(2500);
+    } else if (window.innerWidth >= 1400) {
+      setWindowWidth(2300);
+    } else if (window.innerWidth >= 1280) {
+      setWindowWidth(2450);
+    }
+  }, []);
 
-  if (window.innerWidth >= 1500) {
-    maxheightScreen = "2500";
-  } else if (window.innerWidth >= 1400) {
-    maxheightScreen = "2300";
-  } else if (window.innerWidth >= 1280) {
-    maxheightScreen = "2450";
-  }
-
-  const y = useTransform(
-    scrollYProgress,
-    [0, 1],
-    ["0px", `${maxheightScreen}px`]
-  );
+  const y = useTransform(scrollYProgress, [0, 1], ["0px", `${windowWidth}px`]);
 
   let imageRender;
   if (sectionOneView) {
