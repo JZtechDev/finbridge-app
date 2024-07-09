@@ -9,7 +9,9 @@ const Navbar = () => {
     <header className="absolute w-full z-50">
       <div className="container mt-10">
         <nav className="flex justify-between items-center">
-          <Image src="/logo.svg" alt="Logo" width="110" height="30" />
+          <Link href="/">
+            <Image src="/logo.svg" alt="Logo" width="110" height="30" />
+          </Link>
           <div className="bg-[#050D1B33] lg:flex hidden gap-[15px] justify-between items-center p-[5px] border border-[#B7D2FF06] rounded-full h-[3.375rem]">
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
@@ -51,7 +53,9 @@ const Navbar = () => {
             </SheetTrigger>
             <SheetContent>
               <nav className="flex flex-col gap-10 justify-between items-start mt-5">
-                <Image src="/logo.svg" alt="Logo" width="210" height="30" />
+                <Link href="/">
+                  <Image src="/logo.svg" alt="Logo" width="210" height="30" />
+                </Link>
                 <div className="flex flex-col gap-9 justify-between items-center p-[5px]">
                   <Link
                     className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"

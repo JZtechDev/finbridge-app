@@ -11,12 +11,12 @@ const Guide = ({ titles, data }: { titles: any; data: any }) => {
       <Tabs
         defaultValue={`Finbridge Platform User Guide`}
         orientation="horizontal"
-        className="flex gap-[10px] w-full justify-between items-start"
+        className="flex xl:flex-row flex-col gap-[10px] w-full justify-between items-start"
       >
-        <TabsList className="h-auto flex-col items-start justify-start bg-[#03070D66] border border-[#B7D2FF1A] p-[10px] gap-2">
+        <TabsList className="xl:h-auto sm:h-[18.75rem] h-[15.625rem] overflow-auto flex-col xl:w-[350px] w-full items-start justify-start bg-[#03070D66] border border-[#B7D2FF1A] p-[10px] gap-2">
           {titles.map((title: any, index: number) => (
             <TabsTrigger
-              className={`h-10 text-white bg-[#FFFFFF0A] border border-[#FFFFFF0A] w-full justify-start rounded-[10px] tab_btn ${title}`}
+              className={`h-10 text-white text-left text-wrap sm:text-nowrap bg-[#FFFFFF0A] border border-[#FFFFFF0A] w-full justify-start rounded-[10px] tab_btn ${title}`}
               key={index}
               value={title}
             >
@@ -29,11 +29,11 @@ const Guide = ({ titles, data }: { titles: any; data: any }) => {
 
           return (
             <TabsContent
-              className="flex-1 bg-[#040A1466] border border-[#B7D2FF1A] w-full rounded-[10px] m-0 p-10 tab_content "
+              className="flex-1 bg-[#040A1466] border border-[#B7D2FF1A] w-full rounded-[10px] m-0 sm:p-10 p-4 tab_content "
               key={index}
               value={titles[index]}
             >
-              <h2 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium pb-2">
+              <h2 className="xl:text-h3 text-[32px] text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium pb-2">
                 {heading}
               </h2>
               <BlocksRenderer
