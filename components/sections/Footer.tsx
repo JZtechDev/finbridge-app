@@ -4,15 +4,15 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-[#040A1466] border-t border-[#B7D2FF1A]  ">
-      <div className="container relative isolate before:absolute before:w-[330px] before:h-[330px] before:bg-[#B7D2FF33] before:-left-[50px] before:-top-1/2 before:rounded-full before:blur-3xl before:-z-10 before:opacity-50 after:absolute after:w-[330px] after:h-[330px] after:bg-[#B7D2FF33] after:-right-[50px] after:-top-1/2 after:rounded-full after:blur-3xl after:-z-10 after:opacity-50">
-        <div className="grid grid-cols-4 py-12">
+      <div className="container relative isolate before:absolute before:w-[330px] before:h-[330px] before:bg-[#B7D2FF33] before:-left-[50px] before:-top-1/2 before:rounded-full before:blur-3xl before:-z-10 before:opacity-50 after:absolute after:w-[330px] after:h-[330px] after:bg-[#B7D2FF33] 3xl:after:-right-[50px] after:-right-0 after:-top-1/2 after:rounded-full after:blur-3xl after:-z-10 after:opacity-50">
+        <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-2 py-12">
           <div>
             <Image src="/logo.svg" alt="Logo" width="150" height="40" />
-            <p className="text-sm opacity-50 font-medium mt-6 max-w-[50%]">
+            <p className="text-sm opacity-50 font-medium mt-6 lg:max-w-[50%]">
               Focus on your business not the infrastructure
             </p>
           </div>
-          <div className="pl-10">
+          <div className="md:pl-10">
             <h6 className=" text-[1rem] opacity-50 font-medium mb-5">
               MT4/MT5
             </h6>
@@ -39,7 +39,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="md:pl-5 lg:pl-0">
             <h6 className=" text-[1rem] opacity-50 font-medium mb-5">
               MT4/MT5
             </h6>
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="md:pl-5 lg:pl-0">
             <h6 className=" text-[1rem] opacity-50 font-medium mb-5">
               MT4/MT5
             </h6>

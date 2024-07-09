@@ -14,7 +14,13 @@ const config = {
       center: true,
       padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1500px",
+        xl: "1400px",
+        lg: "1200px",
+        md: "990px",
+        base: "768px",
+        sm: "660px",
+        xsm: "480px",
       },
     },
     fontSize: {

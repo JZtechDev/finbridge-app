@@ -372,3 +372,21 @@
 .privacy_content p{
   line-height: 1.8;
 }
+
+.bespoke_container {
+  transform-style: preserve-3d;
+  perspective: 1200px;
+}
+.rotating_blob::after {
+  animation: spin-blob 5s linear infinite ;
+  background: radial-gradient(rgb(40, 231, 197), rgb(29, 170, 144)) ;
+}
+
+@keyframes spin-blob{
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to{
+    transform: translateX(-50%) rotate(360deg);
+  }
+}

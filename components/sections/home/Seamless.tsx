@@ -51,10 +51,10 @@ const Seamless = () => {
           />
           <div className="absolute w-full h-full bg-gradient-to-t from-[#03070D] from-[50%] to-transparent z-[2]" />
         </div>
-        <h4 className="text-h4 text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[40%] m-auto">
+        <h4 className="text-h4 text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium lg:max-w-[40%] m-auto">
           Unlock Seamless Trading with Finbridge
         </h4>
-        <p className="text-body opacity-50 font-medium max-w-[25%] m-auto text-center">
+        <p className="text-body opacity-50 font-medium lg:max-w-[25%] m-auto text-center">
           Experience trading at its best with Finbridge. Enjoy fast, reliable
           execution and real-time monitoring to stay ahead in the market.
         </p>

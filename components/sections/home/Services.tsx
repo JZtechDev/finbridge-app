@@ -6,16 +6,16 @@ const Services = () => {
   return (
     <section>
       <div className="container">
-        <h2 className="text-h2 text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[48%] m-auto">
+        <h2 className="sm:text-h2 text-[32px] text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium lg:max-w-[48%] m-auto">
           MT4/MT5 Services
         </h2>
-        <p className="text-body opacity-50 font-medium max-w-[38%] m-auto text-center">
+        <p className="text-body opacity-50 font-medium lg:max-w-[38%] m-auto text-center">
           Benefit from the advanced MT4/MT5 Hosting and Monitoring or set-up
           your MT4/MT5 brokerage in less than a week, buy adding MT4/MT5 White
           Label to the Your Bourse Platform.
         </p>
       </div>
-      <div className="container grid grid-cols-3 gap-[5px] pt-24">
+      <div className="container grid lg:grid-cols-3 md:grid-cols-2 gap-[5px] pt-24">
         <div className="bg-[#040A1466] border border-[#B7D2FF26] p-[10px] rounded-[20px] flex flex-col gap-[15px]">
           <div>
             <Image
@@ -27,7 +27,7 @@ const Services = () => {
             />
           </div>
           <div className="p-[15px]">
-            <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[50%] pb-3">
+            <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium sm:max-w-[50%] pb-3">
               MT4 / MT5 Hosting & Administration
             </h6>
             <p className="text-body opacity-50 font-medium ">
@@ -59,7 +59,7 @@ const Services = () => {
             />
           </div>
           <div className="p-[15px]">
-            <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[38%] pb-3">
+            <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium sm:max-w-[38%] pb-3">
               MT4 / MT5 White Label
             </h6>
             <p className="text-body opacity-50 font-medium ">
@@ -92,7 +92,7 @@ const Services = () => {
             />
           </div>
           <div className="p-[15px]">
-            <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[55%] pb-3">
+            <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium sm:max-w-[55%] pb-3">
               MT4/MT5 Access Server Management
             </h6>
             <p className="text-body opacity-50 font-medium ">
