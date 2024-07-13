@@ -18,9 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${avant.className} overflow-x-hidden`}>
+      <body className={`${avant.className}`}>
         <Navbar />
-        <main className="overflow-x-hidden">{children}</main>
+        <main className="">
+          <div className="">{children}</div>
+        </main>
         <Footer />
       </body>
     </html>

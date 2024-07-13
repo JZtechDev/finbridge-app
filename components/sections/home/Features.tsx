@@ -146,7 +146,7 @@ const Features = () => {
       <div className="relative isolate hidden xl:block" ref={targetedRef}>
         <motion.div
           ref={sectionOne}
-          className="container grid 2xl:grid-cols-2 xl:grid-cols-3 items-start  py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10"
+          className="container grid xl:grid-cols-2 items-start  py-20 relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ amount: 0.9 }}
@@ -155,13 +155,13 @@ const Features = () => {
             <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[50%] mb-4">
               Matching Engine
             </h3>
-            <p className="text-body opacity-50 font-medium max-w-[55%]">
+            <p className="text-body opacity-50 font-medium max-w-[68%]">
               The core of Your Bourse Platform. The matching engine is a trade
               execution engine suitable for all financial instruments: spot FX,
               CFD’s, Crypto, Crypto spot, Stocks, Stock Indices, Commodities,
               you name it.
             </p>
-            <ul className="py-10 flex flex-wrap gap-[5px] max-w-[80%]">
+            <ul className="py-10 flex flex-wrap gap-[5px]">
               <li>
                 <Pill>Low-latency Engine</Pill>
               </li>
