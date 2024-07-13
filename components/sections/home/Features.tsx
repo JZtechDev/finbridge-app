@@ -150,7 +150,7 @@ const Features = () => {
             >
               <motion.div
                 ref={sectionOne}
-                className="container h-screen grid xl:grid-cols-2 items-start relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10"
+                className="container h-screen grid 2xl:grid-cols-2 grid-cols-3 items-start relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 // viewport={{ amount: 0.9 }}

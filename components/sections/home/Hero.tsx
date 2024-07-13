@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="relative isolate overflow-hidden ">
       <div className="container sm:pt-48 pt-36 pb-[320px]">
-        <div className="flex flex-col items-center justify-center gap-5 text-center lg:max-w-[50%] m-auto">
+        <div className="flex flex-col items-center justify-center gap-5 text-center lg:max-w-[70%] m-auto">
           <h4 className="sm:text-h4 text-[32px] text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
             Order Execution and Reporting for{" "}
             <span className="text-[#28E7C5]">MT4</span>,{" "}
