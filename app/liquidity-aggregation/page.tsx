@@ -28,11 +28,11 @@ const page = () => {
         <div className="container flex justify-center">
           <div className="max-w-[700px]">
             <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium text-center mb-5">
-            Connect to more than 30+ LP's with one-click
+            {`Connect to more than 30+ LP's with one-click`}
             </h4>
 
             <p className="text-body opacity-50 font-medium text-center">
-            Your Bourse Liquidity aggregator is connected to 30+ industry-leading liquidity providers price feeds. The liquidity is aggregated into unique liquidity streams for Forex, CFDs, and cryptocurrencies. By setting up liquidity aggregation rules and parameters most suitable for their order flow, brokers deliver tighter spreads and bespoke execution to their clients.
+           {` Your Bourse Liquidity aggregator is connected to 30+ industry-leading liquidity providers price feeds. The liquidity is aggregated into unique liquidity streams for Forex, CFDs, and cryptocurrencies. By setting up liquidity aggregation rules and parameters most suitable for their order flow, brokers deliver tighter spreads and bespoke execution to their clients.`}
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ const page = () => {
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Hosting in Equinix data centres (LD4, LD5, NY4, NY5, CH1, HK1, TY3, FR2), CME Aurora (DC3), Interxion London (Lon1), Singapore (SGX) or Google Cloud
+                {`Hosting in Equinix data centres (LD4, LD5, NY4, NY5, CH1, HK1, TY3, FR2), CME Aurora (DC3), Interxion London (Lon1), Singapore (SGX) or Google Cloud`}
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />

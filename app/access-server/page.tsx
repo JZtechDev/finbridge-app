@@ -33,10 +33,10 @@ const page = () => {
             </h4>
 
             <p className="text-body opacity-50 font-medium text-center">
-              We analyse the brokers clients' connections and create a network
+             {` We analyse the brokers clients connections and create a network
               of data centers connected to the MT4/MT5 trade server in the most
               efficient way, which significantly reduces load of the trade
-              server and protects it from DDoS attacks.
+              server and protects it from DDoS attacks.`}
             </p>
           </div>
         </div>
@@ -58,9 +58,9 @@ const page = () => {
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Provides a single bill for all access points in all locations,
+                {`Provides a single bill for all access points in all locations,
                 no need for signing with individual Data Сenters in the
-                individual locations
+                individual locations`}
               </p>
             </div>
           </div>
