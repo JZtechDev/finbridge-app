@@ -1,7 +1,12 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import Pill from "@/components/ui/pill";
-import { motion, useScroll, useTransform } from "framer-motion";
+import {
+  AnimatePresence,
+  motion,
+  useScroll,
+  useTransform,
+} from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 
@@ -47,68 +52,78 @@ const Features = () => {
   let imageRender;
   if (sectionOneView) {
     imageRender = (
-      <motion.img
-        className="ml-auto"
-        src="/matching-engine.png"
-        alt=""
-        width="500"
-        height="500"
-        initial={{ scale: 0.8 }}
-        animate={{ scale: 1 }}
-        exit={{ opacity: 0 }}
-      />
+      <AnimatePresence>
+        <motion.img
+          className="ml-auto"
+          src="/matching-engine.png"
+          alt=""
+          width="500"
+          height="500"
+          initial={{ scale: 0.8 }}
+          animate={{ scale: 1 }}
+          exit={{ opacity: 0 }}
+        />
+      </AnimatePresence>
     );
   } else if (sectionTwoView) {
     imageRender = (
-      <motion.img
-        className="ml-auto"
-        src="/liquidity-aggr.svg"
-        alt=""
-        width="500"
-        height="500"
-        initial={{ scale: 0.8 }}
-        animate={{ scale: 1 }}
-        exit={{ opacity: 0 }}
-      />
+      <AnimatePresence>
+        <motion.img
+          className="ml-auto"
+          src="/liquidity-aggr.svg"
+          alt=""
+          width="500"
+          height="500"
+          initial={{ scale: 0.8 }}
+          animate={{ scale: 1 }}
+          exit={{ opacity: 0 }}
+        />
+      </AnimatePresence>
     );
   } else if (sectionThreeView) {
     imageRender = (
-      <motion.img
-        className="ml-auto"
-        src="/bridge-gateway.png"
-        alt=""
-        width="500"
-        height="500"
-        initial={{ scale: 0.8 }}
-        animate={{ scale: 1 }}
-        exit={{ opacity: 0 }}
-      />
+      <AnimatePresence>
+        <motion.img
+          className="ml-auto"
+          src="/bridge-gateway.png"
+          alt=""
+          width="500"
+          height="500"
+          initial={{ scale: 0.8 }}
+          animate={{ scale: 1 }}
+          exit={{ opacity: 0 }}
+        />
+      </AnimatePresence>
     );
   } else if (sectionFourView) {
     imageRender = (
-      <motion.img
-        className="ml-auto"
-        src="/risk-management.png"
-        alt=""
-        width="500"
-        height="500"
-        initial={{ scale: 0.8 }}
-        animate={{ scale: 1 }}
-        exit={{ opacity: 0 }}
-      />
+      <AnimatePresence>
+        <motion.img
+          className="ml-auto"
+          src="/risk-management.png"
+          alt=""
+          width="500"
+          height="500"
+          initial={{ scale: 0.8 }}
+          animate={{ scale: 1 }}
+          exit={{ opacity: 0 }}
+        />
+      </AnimatePresence>
     );
   } else if (sectionFiveView) {
     imageRender = (
-      <motion.img
-        className="ml-auto"
-        src="/api-server.svg"
-        alt=""
-        width="500"
-        height="500"
-        initial={{ scale: 0.8 }}
-        animate={{ scale: 1 }}
-        exit={{ opacity: 0 }}
-      />
+      <AnimatePresence>
+        <motion.img
+          className="ml-auto"
+          src="/api-server.svg"
+          alt=""
+          width="500"
+          height="500"
+          initial={{ scale: 0.8 }}
+          animate={{ scale: 1 }}
+          exit={{ opacity: 0 }}
+        />
+      </AnimatePresence>
     );
   }
 
