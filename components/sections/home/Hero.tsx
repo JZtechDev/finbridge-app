@@ -28,7 +28,7 @@ const Hero = () => {
               {`Make informed decisions with robust reporting and business analytics functionalities.`}
             </li>
           </ul>
-          <Button>Here's how it functions</Button>
+          <Button>{`Here's how it functions`}</Button>
         </div>
         <div className="flex justify-center items-center m-auto absolute w-[33.75rem] h-[33.75rem] -z-20 lg:bottom-[-12.5rem] sm:bottom-[-7.5rem] xsm:bottom-[-2rem] left-[49.5%] -translate-x-1/2 before:absolute before:w-[19.125rem] before:h-[19.125rem] before:bg-[#B7D2FF1A] before:top-1/4 before:left-[21%] before:rounded-full before:blur-3xl before:-z-10">
           <motion.div
