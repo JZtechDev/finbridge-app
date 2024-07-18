@@ -33,7 +33,7 @@ const page = async () => {
       </div>
     );
   } catch (error: any) {
-    console.error(error.messsage);
+    console.log(error.messsage);
   }
 };
 
