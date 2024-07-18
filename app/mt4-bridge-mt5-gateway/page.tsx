@@ -13,16 +13,20 @@ const page = () => {
               MT4 Bridge / MT5 Gateway
             </h4>
             <p className="text-body opacity-50 font-medium ">
-              Connect your MT4/5 servers to aggregated liquidity and low-latency
-              matching engine via high performing and light-weighted MT4 Bridge
-              and MT5 Gateway
+              {`Experience seamless integration between your MT4/MT5 server, deep liquidity pools, and our lightning-fast matching engine. Our lightweight solution prioritizes speed and efficiency.`}
             </p>
 
             <Button className="w-fit btn-shadow mr-[10px]" variant="secondary">
               Schedule Demo
             </Button>
           </div>
-          <Image className="hidden lg:block" src={"/bridge-gateway.png"} width={400} height={400} alt="" />
+          <Image
+            className="hidden lg:block"
+            src={"/bridge-gateway.png"}
+            width={400}
+            height={400}
+            alt=""
+          />
         </div>
       </section>
 
@@ -30,15 +34,18 @@ const page = () => {
         <div className="container flex justify-center">
           <div className="max-w-[700px]">
             <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium text-center mb-5">
-              High performance connection to MT4/MT5
+              Effortless Platform Integration WITH MT4/MT5
             </h4>
 
             <p className="text-body opacity-50 font-medium text-center">
+              {`Elevate your brokerage's offering with 's MT4 Bridge and MT5 Gateway. These innovative plugins seamlessly connect your MT4/MT5 platform to our advanced matching engine and extensive liquidity network, empowering you to deliver a superior trading experience for your clients.`}
+            </p>
+            {/* <p className="text-body opacity-50 font-medium text-center">
               MT4 Bridge and MT5 Gateway are integral parts of Your Bourse
               Platform. The plugins allow retail brokers to connect the Your
               Bourse platform to their MT4/MT5 trading platform to manage their
               business more effectively and optimise order processing.
-            </p>
+            </p> */}
           </div>
         </div>
 

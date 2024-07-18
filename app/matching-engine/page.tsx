@@ -10,17 +10,24 @@ const page = () => {
         <div className="container flex justify-between items-center pb-10">
           <div className="lg:max-w-[50%] m-auto flex flex-col gap-[25px]">
             <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
-            Matching Engine
+              Matching Engine
             </h4>
             <p className="text-body opacity-50 font-medium ">
-            The best-of-breed Matching Engine that allows management of client order flow and provides lightining-fast execution of all basic and advanced order and expiry types.
+              Experience the seamless convergence of order control and
+              lightning-fast execution with our innovative matching engine.
             </p>
 
             <Button className="w-fit btn-shadow mr-[10px]" variant="secondary">
               Schedule Demo
             </Button>
           </div>
-          <Image className="hidden lg:block" src={"/matching-engine.png"} width={400} height={400} alt="" />
+          <Image
+            className="hidden lg:block"
+            src={"/matching-engine.png"}
+            width={400}
+            height={400}
+            alt=""
+          />
         </div>
       </section>
 
@@ -28,11 +35,15 @@ const page = () => {
         <div className="container flex justify-center">
           <div className="max-w-[700px]">
             <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium text-center mb-5">
-            Manage your order execution with one-click
+              {`Control & Speed: The Perfect Trading Match:`}
             </h4>
 
             <p className="text-body opacity-50 font-medium text-center">
-            Your Bourse Matching Engine allows brokers to effectively manage their order execution. All the trading parameters are configured in a user-friendly web-based GUI and all changes are immediately applied in the platform with no restart needed. The Matching Engine ensures accurate and lighting-fast execution of all basic and advanced order and expiry types.
+              {`Your Matching Engine ensures lightning-fast and precise execution
+              for every trade, from basic to advanced order types and expiries.
+              ur user-friendly web GUI empowers you to configure all trading
+              parameters with ease. No restarts required - changes take effect
+              instantly.`}
             </p>
           </div>
         </div>
@@ -41,26 +52,31 @@ const page = () => {
           <div className="bg-[#040A1466] border border-[#B7D2FF26] p-[10px] rounded-[20px] flex flex-col gap-[15px]">
             <div className="p-[15px]">
               <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium pb-[20px] ">
-              Ultra-low latency
+                Ultra-low latency
               </h6>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Cross-connects to 26+ banks and tier-2 Liquidity Providers (see the full list of Liquidity Providers)
+                {`Our extensive network of 30+ banks and tier-1 Liquidity
+                Providers provides you with competitive pricing and diverse
+                trading opportunities.`}
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Hosting in Equinix data centres (LD4, LD5, NY4, NY5, CH1, HK1, TY3, FR2), CME Aurora (DC3), Interxion London (Lon1), Singapore (SGX) or Google Cloud
+                Hosting in Equinix data centres (LD4, LD5, NY4, NY5, CH1, HK1,
+                TY3, FR2), CME Aurora (DC3), Interxion London (Lon1), Singapore
+                (SGX) or Google Cloud
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Written in C++ and run on Linux on Cascade Lake CPUs with 10 GB networking
+                Written in C++ and run on Linux on Cascade Lake CPUs with 10 GB
+                networking
               </p>
             </div>
           </div>
           <div className="bg-[#040A1466] border border-[#B7D2FF26] p-[10px] rounded-[20px] flex flex-col gap-[15px]">
             <div className="p-[15px]">
               <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium pb-[20px] ">
-              Smart Order Routing
+                Intelligent Order Routing
               </h6>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
@@ -72,33 +88,39 @@ const page = () => {
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Dynamic routing based on margin utilisation with each liquidity provider
+                {`AI-Powered Margin Analysis & Real-Time Routing: Our cutting-edge
+                system utilizes artificial intelligence to analyze the margin
+                utilization of every liquidity provider in real-time.`}
               </p>
             </div>
           </div>
           <div className="bg-[#040A1466] border border-[#B7D2FF26] p-[10px] rounded-[20px] flex flex-col gap-[15px]">
             <div className="p-[15px]">
               <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium pb-[20px]">
-              Advanced Order Types
+                Advanced Order Types
               </h6>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Limit, Market, Stop Limit, Stop Loss and OCO (One-Cancels-the-Other) orders
+                Limit, Market, Stop Limit, Stop Loss and OCO
+                (One-Cancels-the-Other) orders
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                FOK (Fill or Kill), IOC (Immediate or Cancel), GTC (Good Till Cancelled), GTD (Good Till Date) and Valid For Milliseconds expiry types
+                FOK (Fill or Kill), IOC (Immediate or Cancel), GTC (Good Till
+                Cancelled), GTD (Good Till Date) and Valid For Milliseconds
+                expiry types
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Proprietary data structure and algorithms used for Order Book to ensure O(1) complexity for all operations
+                Proprietary data structure and algorithms used for Order Book to
+                ensure O(1) complexity for all operations
               </p>
             </div>
           </div>
           <div className="bg-[#040A1466] border border-[#B7D2FF26] p-[10px] rounded-[20px] flex flex-col gap-[15px]">
             <div className="p-[15px]">
               <h6 className="text-h6 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium pb-[20px]">
-              APIs
+                APIs
               </h6>
 
               <p className="text-body opacity-50 font-medium flex gap-2">
@@ -111,7 +133,8 @@ const page = () => {
               </p>
               <p className="text-body opacity-50 font-medium flex gap-2">
                 <Check size={16} className="mt-1 !min-w-4 !min-h-4" />
-                Bindings for C++, C#, Java, Python, Go, Node.js, PHP, Ruby, Objective-C, Android Java and Dart
+                Bindings for C++, C#, Java, Python, Go, Node.js, PHP, Ruby,
+                Objective-C, Android Java and Dart
               </p>
             </div>
           </div>

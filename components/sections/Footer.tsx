@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <Image src="/logo.svg" alt="Logo" width="150" height="40" />
             <p className="text-sm opacity-50 font-medium mt-6 lg:max-w-[50%]">
-              Focus on your business not the infrastructure
+              {`Focus on Your Vision, We'll Engineer Your Success:`}
             </p>
           </div>
           <div className="md:pl-10">

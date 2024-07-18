@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="bg-[#050D1B33] lg:flex hidden gap-[15px] justify-between items-center p-[5px] border border-[#B7D2FF06] rounded-full h-[3.375rem]">
             <DropdownMenu>
               <DropdownMenuTrigger className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium border-[0px] outline-none">
-                Features
+                Solutions
                 <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
                   <ChevronDown />
                 </span>
@@ -98,7 +98,7 @@ const Navbar = () => {
                     className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
                     href="/userguide"
                   >
-                    Features
+                    Solutions
                     <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
                       <ChevronDown />
                     </span>

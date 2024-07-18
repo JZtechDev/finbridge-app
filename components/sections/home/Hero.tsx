@@ -9,16 +9,26 @@ const Hero = () => {
       <div className="container sm:pt-48 pt-36 pb-[320px]">
         <div className="flex flex-col items-center justify-center gap-5 text-center lg:max-w-[70%] m-auto">
           <h4 className="sm:text-h4 text-[32px] text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
-            Order Execution and Reporting for{" "}
-            <span className="text-[#28E7C5]">MT4</span>,{" "}
-            <span className="text-[#28E7C5]">MT5</span> and{" "}
-            <span className="text-[#28E7C5]">Crypto</span> Brokers
+            Empower Your Brokerage width{" "}
+            <span className="text-[#28E7C5]">Comprehensive</span>,{" "}
+            <span className="text-[#28E7C5]">Trading</span>{" "}
+            <span className="text-[#28E7C5]">Solutions</span>
           </h4>
-          <p className="text-body opacity-50 font-medium lg:max-w-[70%] m-auto">
-            {`Multi-asset liquidity aggregation, order matching, risk management,
-            client profiling, reporting, and business analytics`}
-          </p>
-          <Button>See How it Works</Button>
+          <ul className="text-left">
+            <li className="text-body opacity-50 font-medium lg:max-w-[70%] m-auto mb-1">
+              <span className="text-[#28E7C5] font-semibold">{`•	Effortless Order Handling:`}</span>{" "}
+              {`Aggregate liquidity across assets, streamline order matching, and manage risk for MT4, MT5, and Crypto trading – all within a unified platform.`}
+            </li>
+            <li className="text-body opacity-50 font-medium lg:max-w-[70%] m-auto mb-1">
+              <span className="text-[#28E7C5] font-semibold">{`•	Deeper Client Understanding:`}</span>{" "}
+              {`Gain valuable insights into your clients with comprehensive profiling tools.`}
+            </li>
+            <li className="text-body opacity-50 font-medium lg:max-w-[70%] m-auto mb-1">
+              <span className="text-[#28E7C5] font-semibold">{`•	Data-Driven Strategies:`}</span>{" "}
+              {`Make informed decisions with robust reporting and business analytics functionalities.`}
+            </li>
+          </ul>
+          <Button>Here's how it functions</Button>
         </div>
         <div className="flex justify-center items-center m-auto absolute w-[33.75rem] h-[33.75rem] -z-20 lg:bottom-[-12.5rem] sm:bottom-[-7.5rem] xsm:bottom-[-2rem] left-[49.5%] -translate-x-1/2 before:absolute before:w-[19.125rem] before:h-[19.125rem] before:bg-[#B7D2FF1A] before:top-1/4 before:left-[21%] before:rounded-full before:blur-3xl before:-z-10">
           <motion.div
@@ -64,12 +74,10 @@ const Hero = () => {
         <div className="relative container ">
           <div className="container pt-12 lg:grid flex flex-col gap-2 lg:grid-cols-3">
             <p className=" col-span-1 opacity-50 text-center text-[14px] sm:text-[16px]">
-              {`Multi-asset liquidity aggregation, order matching, risk management,
-            client profiling, reporting, and business analytics`}
+              {`Manage orders, mitigate risk, gain client insights for all your asset offerings and make data-driven decisions for your brokerage.`}
             </p>
             <p className=" col-span-1 col-start-3 opacity-50 text-center text-[14px] sm:text-[16px]">
-              {`Experience trading at its best with Finbridge. Enjoy fast, reliable
-            execution and real-time monitoring to stay ahead in the market.`}
+              {`Finbridge: Where Speed Meets Accuracy: Experience lightning-fast trade execution, reliable order matching, and real-time market data – all on one platform.`}
             </p>
           </div>
           <Image

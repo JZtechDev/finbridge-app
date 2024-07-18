@@ -13,15 +13,21 @@ const page = () => {
               Access Server Management Service
             </h4>
             <p className="text-body opacity-50 font-medium ">
-              Improve your MT4/MT5 Data Center connectivity and productivity -
-              the remote access server analysis and routing service.
+              {`Eliminate Latency & Maximize Efficiency: Our Remote Access Service
+              Optimizes Your MT4/MT5 Data Center`}
             </p>
 
             <Button className="w-fit btn-shadow mr-[10px]" variant="secondary">
               Schedule Demo
             </Button>
           </div>
-          <Image className="hidden lg:block" src="/service/service-3.png" width={400} height={400} alt="" />
+          <Image
+            className="hidden lg:block"
+            src="/service/service-3.png"
+            width={400}
+            height={400}
+            alt=""
+          />
         </div>
       </section>
 
@@ -29,11 +35,11 @@ const page = () => {
         <div className="container flex justify-center">
           <div className="max-w-[700px]">
             <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium text-center mb-5">
-              Increase your trade server performance
+              {`Gain the Edge: Supercharge Your Trade Server's Performance`}
             </h4>
 
             <p className="text-body opacity-50 font-medium text-center">
-             {` We analyse the brokers clients connections and create a network
+              {` We analyse the brokers clients connections and create a network
               of data centers connected to the MT4/MT5 trade server in the most
               efficient way, which significantly reduces load of the trade
               server and protects it from DDoS attacks.`}

@@ -11,12 +11,10 @@ const Services = () => {
       <section>
         <div className="container">
           <h2 className="sm:text-h2 text-[32px] text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium lg:max-w-[48%] m-auto">
-            MT4/MT5 Services
+            MT4/MT5 Solutions
           </h2>
           <p className="text-body opacity-50 font-medium lg:max-w-[45%] m-auto text-center">
-            Benefit from the advanced MT4/MT5 Hosting and Monitoring or set-up
-            your MT4/MT5 brokerage in less than a week, buy adding MT4/MT5 White
-            Label to the Your Bourse Platform.
+            {`Launch your brokerage quickly and easily with FINBRIDGE's MT4/MT5 White Label solution. Leverage our advanced hosting, monitoring, and platform integration for a powerful trading environment.`}
           </p>
         </div>
         <div className="container grid lg:grid-cols-3 md:grid-cols-2 gap-[5px] pt-24">
@@ -36,9 +34,9 @@ const Services = () => {
                 MT4 / MT5 Hosting & Administration
               </h6>
               <p className="text-body opacity-50 font-medium ">
-                Cost effective, ultra low latency hosting and security for
-                MT4/MT5 servers in all Equinix data centres (NY4, LD4, TY3, and
-                other locations)
+                {`Enjoy ultra-low latency MT4/MT5 hosting with robust security,
+                all at a cost-effective price. Leverage the power of Equinix
+                data centres (NY4, LD4, TY3, and more) for optimal performance.`}
               </p>
             </div>
             <div className="p-[10px] px-[15px] flex items-center justify-between mt-auto">
@@ -69,10 +67,7 @@ const Services = () => {
                 MT4 / MT5 White Label
               </h6>
               <p className="text-body opacity-50 font-medium ">
-                Your Bourse provides a turn-key solution for companies looking
-                for a reliable provider to quickly launch an MT4/MT5 brokerage
-                without purchasing a full MT4/MT5 license. The full set up is
-                done within a week.
+                {`FINBRIDGE empowers you to launch your brokerage quickly and easily. We handle the setup within a week, so you can focus on running your business with a reliable MT4/MT5 platform.`}
               </p>
             </div>
             <div className="p-[10px] px-[15px] flex items-center justify-between mt-auto">
@@ -103,8 +98,7 @@ const Services = () => {
                 MT4/MT5 Access Server Management
               </h6>
               <p className="text-body opacity-50 font-medium ">
-                Connectivity analysis and remote access server management to
-                reduces MT4/MT5 trade server load and enhance DDoS protection.
+                {`We manage remote access servers and analyze connectivity to ensure smooth operation of your MT4/MT5 platform. This reduces server load and enhances DDoS protection for a robust trading environment.`}
               </p>
             </div>
             <div className="p-[10px] px-[15px] flex items-center justify-between mt-auto">

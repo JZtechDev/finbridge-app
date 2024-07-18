@@ -7,7 +7,7 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import { useInView } from "framer-motion";
 
 const Features = () => {
@@ -127,12 +127,11 @@ const Features = () => {
         <div className=" relative isolate md:before:w-[580px] before:w-[280px] md:before:h-[580px] before:h-[280px] before:absolute before:bg-[#B7D2FF33] before:rounded-full before:top-[-9rem] 3xl:before:-right-[80px] 2xl:before:-right-0 before:blur-[150px] before:-z-10">
           <div className="xl:max-w-[40%] lg:max-w-[60%] m-auto">
             <h2 className="sm:text-h2 text-[32px] text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
-              Features & Functionality
+              What it Does & How Well it Does It
             </h2>
             <p className="text-body opacity-50 font-medium sm:max-w-[45%] m-auto text-center">
-              Your Bourse is a platform-as-a-service. All current and future
-              platform features are available to all Your Bourse clients for no
-              extra costs.
+              {`FINBRIDGE offers a complete trading solution – all the tools you
+              need, from the start, at one transparent price.`}
             </p>
           </div>
         </div>
@@ -150,10 +149,7 @@ const Features = () => {
                     Matching Engine
                   </h3>
                   <p className="text-body opacity-50 font-medium max-w-[68%]">
-                    The core of Your Bourse Platform. The matching engine is a
-                    trade execution engine suitable for all financial
-                    instruments: spot FX, CFD’s, Crypto, Crypto spot, Stocks,
-                    Stock Indices, Commodities, you name it.
+                    {`Powering Millions of Trades: Experience the unmatched performance of FINBRIDGE's matching engine, built to handle high-volume trading seamlessly from forex to crypto and beyond.`}
                   </p>
                   <ul className="py-10 flex flex-wrap gap-[5px]">
                     <li>
@@ -178,7 +174,7 @@ const Features = () => {
                       <Pill>Equinix hosting</Pill>
                     </li>
                   </ul>
-                  <Button className="mr-[10px]">Learn More</Button>
+                  <Button className="mr-[10px]">Discover More</Button>
                   <Button className="btn-shadow" variant="secondary">
                     Schedule Demo
                   </Button>
@@ -195,14 +191,11 @@ const Features = () => {
                     Liquidity Aggregation
                   </h3>
                   <p className="text-body opacity-50 font-medium max-w-[66%]">
-                    Liquidity aggregation from multiple liquidity sources into
-                    the unique price feeds. Set up aggregation rules and
-                    parameters specific to your order flow to deliver bespoke
-                    execution to your clients.
+                    {`Our advanced system aggregates prices from multiple sources, providing a clearer picture of market value. Define custom rules and parameters for your order flow, ensuring the most efficient execution for your trades.`}
                   </p>
                   <ul className="py-10 flex flex-wrap gap-[5px] max-w-[60%]">
                     <li>
-                      <Pill>Price aggregation</Pill>
+                      <Pill>Enhanced Market Transparency</Pill>
                     </li>
                     <li>
                       <Pill>30+ liquidity providers</Pill>
@@ -220,7 +213,7 @@ const Features = () => {
                       <Pill>Spike filters & mark-up</Pill>
                     </li>
                   </ul>
-                  <Button className="mr-[10px]">Learn More</Button>
+                  <Button className="mr-[10px]">Discover More</Button>
                   <Button className="btn-shadow" variant="secondary">
                     Schedule Demo
                   </Button>
@@ -237,12 +230,11 @@ const Features = () => {
                     MT4 Bridge / MT5 Gateway
                   </h3>
                   <p className="text-body opacity-50 font-medium max-w-[66%]">
-                    High performance, lightweight, easy to install plugins that
-                    connect Your Bourse platform to MT4 and MT5 servers.
+                    {`Unlock the Power of Two Platforms: Unleash the combined potential of FINBRIDGE and MT4/MT5 with our powerful & streamlined plugins.`}
                   </p>
                   <ul className="py-10 flex flex-wrap gap-[5px] max-w-[66%]">
                     <li>
-                      <Pill>High-performance stability</Pill>
+                      <Pill>99.99% Uptime Guarantee</Pill>
                     </li>
                     <li>
                       <Pill>Configurable routing</Pill>
@@ -257,7 +249,7 @@ const Features = () => {
                       <Pill>Real-time updates</Pill>
                     </li>
                   </ul>
-                  <Button className="mr-[10px]">Learn More</Button>
+                  <Button className="mr-[10px]">Discover More</Button>
                   <Button className="btn-shadow" variant="secondary">
                     Schedule Demo
                   </Button>
@@ -268,16 +260,13 @@ const Features = () => {
                 className="container h-screen grid 2xl:grid-cols-2 grid-cols-3 items-start relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                // viewport={{ amount: 0.9 }}
               >
                 <div className=" self-center mt-8 xl:pl-4 2xl:col-span-1 col-span-2">
                   <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[90%] mb-4">
                     Risk Management & Reporting
                   </h3>
                   <p className="text-body opacity-50 font-medium max-w-[68%]">
-                    Historic and real-time trade data available at your
-                    fingertips. Your Bourse mines, slices, and pre-calculates 89
-                    data items to offer tailor-made reporting.
+                    {`Access a wealth of historic and real-time data instantly. FINBRIDGE automatically analyses over 100 data points, delivering custom reports tailored to your needs.`}
                   </p>
                   <ul className="py-10 flex flex-wrap gap-[5px] max-w-[60%]">
                     <li>
