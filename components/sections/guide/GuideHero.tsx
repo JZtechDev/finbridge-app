@@ -6,17 +6,17 @@ const GuideHero = () => {
       <div className="container">
         <div className="xl:max-w-[40%] md:max-w-[50%] m-auto flex flex-col gap-[25px]">
           <h4 className="text-h4 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium text-center sm:px-[30px]">
-            Your Finbridge Platform User Guide
+            {`Your Finbridge Platform User Guide`}
           </h4>
           <p className="text-body opacity-50 font-medium text-center">
-            Multi-asset liquidity aggregation, order matching, risk management,
-            client profiling, reporting, and business analytics
+            {`Multi-asset liquidity aggregation, order matching, risk management,
+            client profiling, reporting, and business analytics`}
           </p>
           <div className="flex justify-center">
             <Button className="btn-shadow mr-[10px]" variant="secondary">
-              Schedule Demo
+              {`Schedule Demo`}
             </Button>
-            <Button className="">Premium LP</Button>
+            <Button>Premium LP</Button>
           </div>
         </div>
       </div>

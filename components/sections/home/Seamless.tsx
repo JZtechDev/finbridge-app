@@ -55,8 +55,8 @@ const Seamless = () => {
           Experience Frictionless Trading WITH finbridge
         </h4>
         <p className="text-body opacity-50 font-medium lg:max-w-[29.5%] m-auto text-center">
-          Experience trading at its best with Finbridge. Enjoy fast, reliable
-          execution and real-time monitoring to stay ahead in the market.
+          {`Experience trading at its best with Finbridge. Enjoy fast, reliable
+          execution and real-time monitoring to stay ahead in the market.`}
         </p>
         <Button variant="secondary" className="mt-5">
           Schedule Demo

@@ -15,22 +15,26 @@ async function getStrapiData() {
 }
 
 const page = async () => {
-  const { data }: any = await getStrapiData();
-  const titlesArray: Array<string> = [];
-  const tabContent: Array<any> = [];
+  try {
+    const { data }: any = await getStrapiData();
+    const titlesArray: Array<string> = [];
+    const tabContent: Array<any> = [];
 
-  data.map((item: any) => {
-    titlesArray.push(item.attributes.title);
-    tabContent.push(item.attributes);
-  });
+    data.map((item: any) => {
+      titlesArray.push(item.attributes.title);
+      tabContent.push(item.attributes);
+    });
 
-  return (
-    <div className="user_guide overflow-hidden pb-10">
-      <GuideHero />
-      <Guide titles={titlesArray} data={tabContent} />
-      <Seamless />
-    </div>
-  );
+    return (
+      <div className="user_guide overflow-hidden pb-10">
+        <GuideHero />
+        <Guide titles={titlesArray} data={tabContent} />
+        <Seamless />
+      </div>
+    );
+  } catch (error: any) {
+    console.error(error.messsage);
+  }
 };
 
 export default page;
