@@ -73,7 +73,7 @@ const Navbar = () => {
             </DropdownMenu>
             <Link
               className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium border-[0px] outline-none"
-              href=""
+              href="/about-us"
             >
               About Us
             </Link>
@@ -114,7 +114,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-                    href="/userguide"
+                    href="/about-us"
                   >
                     About Us
                     <span className="flex items-center justify-center w-4 text-[#FFFFFF4D]">
