@@ -11,7 +11,6 @@ import { useEffect, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 
 const Features = () => {
-  const [windowWidth, setWindowWidth] = useState(0);
   const targetedRef: any = useRef(null);
   const sectionOne: any = useRef(null);
   const sectionTwo: any = useRef(null);
@@ -37,16 +36,6 @@ const Features = () => {
 
   const { scrollYProgress } = useScroll({ target: targetedRef });
 
-  useEffect(() => {
-    if (window.innerWidth >= 1500) {
-      setWindowWidth(2500);
-    } else if (window.innerWidth >= 1400) {
-      setWindowWidth(2300);
-    } else if (window.innerWidth >= 1280) {
-      setWindowWidth(2450);
-    }
-  }, []);
-
   const y = useTransform(scrollYProgress, [0, 1], ["0%", `-80%`]);
 
   let imageRender;
@@ -62,6 +51,7 @@ const Features = () => {
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           exit={{ opacity: 0 }}
+          transition={{ delay: 1500 }}
         />
       </AnimatePresence>
     );
@@ -77,6 +67,7 @@ const Features = () => {
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           exit={{ opacity: 0 }}
+          transition={{ delay: 1500 }}
         />
       </AnimatePresence>
     );
@@ -92,6 +83,7 @@ const Features = () => {
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           exit={{ opacity: 0 }}
+          transition={{ delay: 1500 }}
         />
       </AnimatePresence>
     );
@@ -107,6 +99,7 @@ const Features = () => {
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           exit={{ opacity: 0 }}
+          transition={{ delay: 1500 }}
         />
       </AnimatePresence>
     );
@@ -122,6 +115,7 @@ const Features = () => {
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           exit={{ opacity: 0 }}
+          transition={{ delay: 1500 }}
         />
       </AnimatePresence>
     );
@@ -129,8 +123,8 @@ const Features = () => {
 
   return (
     <>
-      <section className="pt-20  relative isolate ">
-        <div className="relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-9rem] 3xl:before:-right-[80px] 2xl:before:-right-0 before:blur-[150px] before:-z-10">
+      <section className="pt-20  relative isolate md:overflow-visible overflow-hidden">
+        <div className=" relative isolate md:before:w-[580px] before:w-[280px] md:before:h-[580px] before:h-[280px] before:absolute before:bg-[#B7D2FF33] before:rounded-full before:top-[-9rem] 3xl:before:-right-[80px] 2xl:before:-right-0 before:blur-[150px] before:-z-10">
           <div className="xl:max-w-[40%] lg:max-w-[60%] m-auto">
             <h2 className="sm:text-h2 text-[32px] text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
               Features & Functionality
@@ -142,18 +136,14 @@ const Features = () => {
             </p>
           </div>
         </div>
-        <div className="relative h-[500vh]" ref={targetedRef}>
+        <div className="relative h-[500vh] hidden xl:block" ref={targetedRef}>
           <div className="sticky h-[100vh] isolate top-0 left-0">
-            <motion.div
-              className="isolate overflow-hidden hidden xl:block"
-              style={{ y }}
-            >
+            <motion.div className="isolate overflow-hidden" style={{ y }}>
               <motion.div
                 ref={sectionOne}
                 className="container h-screen grid 2xl:grid-cols-2 grid-cols-3 items-start relative isolate before:w-[36.25rem] before:absolute before:h-[36.25rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[10rem] before:-left-[230px] before:blur-[150px] before:-z-10"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                // viewport={{ amount: 0.9 }}
               >
                 <div className=" self-center mt-8 xl:pl-4 2xl:col-span-1 xl:col-span-2 xl:justify-start justify-center xl:block flex flex-col">
                   <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[50%] mb-4">
@@ -199,7 +189,6 @@ const Features = () => {
                 className="container h-screen grid 2xl:grid-cols-2 grid-cols-3 items-start relative isolate"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                // viewport={{ amount: 0.9 }}
               >
                 <div className=" self-center mt-8 xl:pl-4 2xl:col-span-1 col-span-2">
                   <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium mb-4">
@@ -242,7 +231,6 @@ const Features = () => {
                 className="container h-screen grid 2xl:grid-cols-2 grid-cols-3 items-start relative isolate before:w-[20rem] before:absolute before:h-[20rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-10rem] before:-right-[230px] before:blur-[150px] before:-z-10"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                // viewport={{ amount: 0.9 }}
               >
                 <div className=" self-center mt-8 xl:pl-4 2xl:col-span-1 col-span-2">
                   <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[80%] mb-4">
@@ -322,7 +310,6 @@ const Features = () => {
                 className="container h-screen grid 2xl:grid-cols-2 grid-cols-3 items-start relative isolate"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                // viewport={{ amount: 0.9 }}
               >
                 <div className=" self-center mt-8 xl:pl-4 2xl:col-span-1 col-span-2">
                   <h3 className="text-h3 text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium max-w-[80%] mb-4">
@@ -459,7 +446,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="container py-10 relative isolate before:w-[20rem] before:absolute before:h-[20rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-10rem] before:-right-[230px] before:blur-[150px] before:-z-10">
+          <div className="container py-10 relative isolate before:hidden xl:before:block before:w-[20rem] before:absolute before:h-[20rem] before:bg-[#B7D2FF33] before:rounded-full before:top-[-10rem] before:-right-[230px] before:blur-[150px] before:-z-10">
             <div className=" mt-8 xl:pl-4  justify-center text-center items-center flex flex-col">
               <img
                 className="m-auto mb-4"
