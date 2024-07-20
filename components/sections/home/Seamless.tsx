@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Seamless = () => {
   return (
-    <section>
+    <section className="overflow-hidden">
       <div className="container flex flex-col justify-center items-center pt-[21.875rem] relative isolate">
         <div className="absolute isolate w-[28rem] h-[28rem] top-[85px] left-[50%] -translate-x-1/2 grid place-items-center before:absolute before:bg-[#B7D2FF1A] before:w-[15.625rem] before:h-[15.625rem] before:rounded-full before:blur-2xl -z-10">
           <motion.div

@@ -13,7 +13,7 @@ const Experience = () => {
   2;
 
   return (
-    <section className=" py-20 overflow-x-hidden relative isolate z-10 sm:before:w-[580px] before:w-[17.5rem] before:absolute sm:before:h-[36.25rem] before:h-[17.5rem] before:bg-[#B7D2FF33] before:rounded-full sm:before:top-40 before:top-8 before:-left-[100px] before:blur-[100px] before:-z-10">
+    <section className=" sm:py-20 py-8 overflow-x-hidden relative isolate z-10 sm:before:block before:hidden sm:before:w-[580px] before:w-[17.5rem] before:absolute sm:before:h-[36.25rem] before:h-[17.5rem] before:bg-[#B7D2FF33] before:rounded-full sm:before:top-40 before:top-8 before:-left-[100px] before:blur-[100px] before:-z-10">
       <div className="container bespoke_container">
         <h2 className="sm:text-h2 text-[32px] text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium mb-9">
           Bespoke Experience

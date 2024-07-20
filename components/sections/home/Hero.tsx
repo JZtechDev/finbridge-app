@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="relative isolate overflow-hidden ">
-      <div className="container sm:pt-48 pt-36 pb-[320px]">
+      <div className="container sm:pt-48 pt-36 sm:pb-[320px] pb-[150px]">
         <div className="flex flex-col items-center justify-center gap-5 text-center lg:max-w-[70%] m-auto">
           <h4 className="sm:text-h4 text-[32px] text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
             Empower Your Brokerage width{" "}
@@ -30,9 +30,9 @@ const Hero = () => {
           </ul>
           <Button>{`Here's how it functions`}</Button>
         </div>
-        <div className="flex justify-center items-center m-auto absolute w-[33.75rem] h-[33.75rem] -z-20 lg:bottom-[-12.5rem] sm:bottom-[-7.5rem] xsm:bottom-[-2rem] left-[49.5%] -translate-x-1/2 before:absolute before:w-[19.125rem] before:h-[19.125rem] before:bg-[#B7D2FF1A] before:top-1/4 before:left-[21%] before:rounded-full before:blur-3xl before:-z-10">
+        <div className="flex justify-center items-center m-auto absolute w-[33.75rem] sm:h-[33.75rem] h-[20.75rem] -z-20 lg:bottom-[-12.5rem] sm:bottom-[-7.5rem] xsm:bottom-[-2rem] left-[49.5%] -translate-x-1/2 before:absolute before:w-[19.125rem] before:h-[19.125rem] before:bg-[#B7D2FF1A] before:top-1/4 before:left-[21%] before:rounded-full before:blur-3xl before:-z-10">
           <motion.div
-            className="absolute isolate w-[33.75rem] h-[33.75rem] -z-40"
+            className="absolute isolate sm:w-[33.75rem] w-[18.75rem] sm:h-[33.75rem] h-[18.75rem] -z-40"
             initial={{ rotate: "0deg" }}
             animate={{ rotate: "360deg" }}
             transition={{
@@ -50,7 +50,7 @@ const Hero = () => {
           </motion.div>
           <div className="absolute w-full h-full  -z-30" />
           <motion.div
-            className="absolute isolate w-[27.5rem] h-[27.5rem] -z-50"
+            className="absolute isolate sm:w-[27.5rem] w-[14.5rem] sm:h-[27.5rem] h-[14.5rem] -z-50"
             initial={{ rotate: "0deg" }}
             animate={{ rotate: "-360deg" }}
             transition={{

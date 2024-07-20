@@ -124,7 +124,7 @@ const Features = () => {
   return (
     <>
       <section className="pt-20  relative isolate md:overflow-visible overflow-hidden">
-        <div className=" relative isolate md:before:w-[580px] before:w-[280px] md:before:h-[580px] before:h-[280px] before:absolute before:bg-[#B7D2FF33] before:rounded-full before:top-[-9rem] 3xl:before:-right-[80px] 2xl:before:-right-0 before:blur-[150px] before:-z-10">
+        <div className=" relative isolate md:before:w-[580px] sm:before:w-[280px] before:w-[180px] md:before:h-[580px] sm:before:h-[280px] before:h-[180px] before:absolute before:bg-[#B7D2FF33] before:rounded-full sm:before:top-[-9rem] before:top-12 3xl:before:-right-[80px] 2xl:before:-right-0 before:blur-[150px] before:-z-10">
           <div className="xl:max-w-[40%] lg:max-w-[60%] m-auto">
             <h2 className="sm:text-h2 text-[32px] text-center text-transparent leading-tight bg-gradient-to-t from-[#B3B3B3] to-white bg-clip-text font-medium">
               What it Does & How Well it Does It
