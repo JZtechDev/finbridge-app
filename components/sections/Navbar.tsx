@@ -127,7 +127,7 @@ const Navbar = () => {
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium border-[0px] outline-none"
-                    href="/about-us"
+                    href=""
                   >
                     About Us
                   </NavigationMenuLink>
@@ -227,7 +227,7 @@ const Navbar = () => {
                   </MenubarMenu>
                   <Link
                     className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium py-[6px] !ml-0"
-                    href="/about-us"
+                    href=""
                   >
                     About Us
                   </Link>
@@ -254,7 +254,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     className="flex gap-2 justify-between items-center px-[15px] text-sm font-medium"
-                    href="/about-us"
+                    href=""
                   >
                     About Us
                   </Link>
